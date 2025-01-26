@@ -1,4 +1,11 @@
 {
-    "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
-    "extends": "@alura/tsconfig-commons/base.json"
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "extends": "@alura/tsconfig-commons/base.json",
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true
+  }
 }

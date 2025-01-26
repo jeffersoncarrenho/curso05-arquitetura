@@ -3,5 +3,10 @@
     "version": "1.0.0",
     "main": "index.js",
     "license": "MIT",
-    "files": ["base.json"]
+    "files": [
+        "base.json"
+    ],
+    "scripts": {
+        "lint": "echo 'not necessary'"
+    }
 }
